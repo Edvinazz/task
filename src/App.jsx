@@ -47,9 +47,8 @@ function App() {
           <table className="data-table">
             <thead>
               <tr>
-                <th className="data-table__number">Nr.</th>
                 <th className="data-table__name">First Name</th>
-                <th className>Last Name</th>
+                <th className="data-table__name">Last Name</th>
                 <th></th>
               </tr>
             </thead>
@@ -57,7 +56,6 @@ function App() {
               {users.map((user, index) => {
                 return (
                   <tr key={index}>
-                    <td>{index + 1}</td>
                     <td>{user.firstName}</td>
                     <td>{user.lastName}</td>
                     <td className='table_actions'><button onClick={() => { setShowModal(true); setModalInformation(user) }}>More information</button></td>

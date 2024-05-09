@@ -13,10 +13,8 @@
 
 .actions {
   display: flex;
-}
-
-thead th:first-child {
-  border-right: 1px solid black;
+  margin-top: 24px;
+  margin-right: auto;
 }
 
 table tr td:not(:last-child) {
@@ -44,12 +42,10 @@ tr {
   border: 1px solid black;
 }
 
-.data-table__number {
-  width: 50px;
-}
-
 .data-table__name {
   width: auto;
+  border-right: 1px solid black;
+
 }
 
 .button {
