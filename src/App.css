@@ -1,0 +1,58 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.actions {
+  display: flex;
+}
+
+thead th:first-child {
+  border-right: 1px solid black;
+}
+
+table tr td:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+table tr td {
+  border-top: 1px solid black;
+}
+tr {
+  border: 1px solid black;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.table_actions {
+  width: 117px;
+}
+
+.data-table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid black;
+}
+
+.data-table__number {
+  width: 50px;
+}
+
+.data-table__name {
+  width: auto;
+}
+
+.button {
+  padding: 8px;
+  margin-right: 12px;
+}
